@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="POST">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="Name" require placeholder="Name" minlength="4" maxlength="20">
+        <br>
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="Email" required>
+        <br>
+        <label>Gender</label>
+        <br>
+        <input id="male" type="radio" name="gender" required>
+        <label for="male">Male</label>
+        <br>
+        <input id="female" type="radio" name="gender" required>
+        <label for="female">Female</label>
+        <br>
+        <input id="transgender" type="radio" name="gender" required>
+        <label for="transgender">Transgender</label>
+        <br>
+        <label for="laptop">Laptop Brands</label>
+        <select name="cars" id="laptop">
+            <option value="apple">Apple</option>
+            <option value="asus">Asus</option>
+            <option value="hp">HP</option>
+        </select>
+        <br>
+        <label for="age">Age</label>
+        <input id="age" type="number" name="age" required>
+        <br>
+        <label for="dob">DOB</label>
+        <input id="dob" type="date" name="date" required>
+        <br>
+        <label for="password">Password</label>
+        <input id="password" type="password" required>
+        <br>
+        <button type="submit" name="Submit">Submit</button>
+        <br>
+        <input id="portfolio" type="text" placeholder="Website URL">
+    </form>
+</body>
+
+</html>
