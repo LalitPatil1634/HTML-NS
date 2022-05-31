@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.main-content {
+    height: 1000px;
+    display: grid;
+    margin: 20px auto;
+    grid-template-columns: 300px 700px;
+    width: 90%;
+}
+
+.left-section {
+    display: grid;
+    background-color: blueviolet;
+    grid-column: 300px;
+}
+
+.right-section {
+    display: grid;
+    background-color: cyan;
+}
+
+.profile-details {
+    height: fit-content;
+    width: fit-content;
+    display: block;
+}
+.profile-image {
+    height: 100px;
+    padding-left: 100px;
+    padding-top: 10px;
+    size: 200px;
+}
+.name {
+    padding-left: 87px;
+
+}
+.designation {
+    padding-left: 110px;
+}

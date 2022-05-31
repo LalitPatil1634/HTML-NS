@@ -1,0 +1,12 @@
+.moviePic {
+    height: 300px;
+    width: 200px;
+    opacity: 0.5;
+}
+
+p {
+    position: relative;
+    top: 58pm;
+    text-align: center;
+    font-size: 12px;
+}
