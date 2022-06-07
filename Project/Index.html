@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>DevilLP Gaming</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+        }
+        
+        .background {
+            background: magenta;
+            background-blend-mode: darken;
+            background-size: cover;
+        }
+        
+        .nav-list {
+            width: 70%;
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .logo img {
+            width: 180px;
+            border-radius: 50px;
+        }
+        
+        .nav-list li {
+            list-style: none;
+            padding: 26px 30px;
+        }
+        
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .nav-list li a:hover {
+            color: grey;
+        }
+        
+        .rightnav {
+            width: 30%;
+            text-align: right;
+        }
+        
+        #search {
+            padding: 5px;
+            font-size: 17px;
+            border: 2px solid grey;
+            border-radius: 9px;
+        }
+        
+        .firstsection {
+            background-color: moccasin;
+            height: 400px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        .secondsection {
+            background-color: lightblue;
+            height: 400px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        .box-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            max-width: 80%;
+            margin: auto;
+            height: 80%;
+        }
+        
+        .firsthalf {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .secondhalf {
+            width: 30%;
+        }
+        
+        .secondhalf img {
+            width: 70%;
+            border: 4px solid white;
+            border-radius: 150px;
+            display: block;
+            margin: auto;
+        }
+        
+        .text-big {
+            font-family: 'Piazzolla', serif;
+            font-weight: bold;
+            font-size: 35px;
+        }
+        
+        .text-small {
+            font-size: 18px;
+        }
+        
+        .btn {
+            padding: 8px 20px;
+            margin: 7px 0;
+            border: 2px solid white;
+            border-radius: 8px;
+            background: none;
+            color: white;
+            cursor: pointer;
+        }
+        
+        .btn-sm {
+            padding: 6px 10px;
+            vertical-align: middle;
+        }
+        
+        .section {
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 90%;
+            margin: auto;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-image: url("")
+        }
+        
+        .section-Left {
+            flex-direction: row-reverse;
+        }
+        
+        .paras {
+            padding: 0px 65px;
+        }
+        
+        .thumbnail img {
+            width: 250px;
+            border: 2px solid black;
+            border-radius: 26px;
+            margin-top: 19px;
+        }
+        
+        .center {
+            text-align: center;
+        }
+        
+        .text-footer {
+            text-align: center;
+            padding: 30px 0;
+            font-family: 'Ubuntu', sans-serif;
+            display: flex;
+            justify-content: center;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <img src="pubg1.png" style="background-color: white;">
+            </div>
+            <li><a href="#web">Home</a></li>
+            <li><a href="#program">Entertainment</a></li>
+            <li><a href="#course">Play Now</a></li>
+        </ul>
+
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+
+    <section class="firstsection">
+        <img src="" alt="">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big" id="web">Grand Theft Auto</h1>
+                <p class="text-small">
+                    Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the seventh main entry in the Grand Theft Auto series, following 2008's Grand Theft Auto IV, and the fifteenth instalment overall. Set
+                    within the fictional state of San Andreas, based on Southern California, the single-player story follows three protagonists—retired bank robber Michael De Santa, street gangster Franklin Clinton, and drug dealer and gunrunner Trevor
+                    Philips—and their attempts to commit heists while under pressure from a corrupt government agency and powerful criminals. The open world design lets players freely roam San Andreas' open countryside and the fictional city of Los Santos,
+                    based on Los Angeles.
+                </p>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="secondsection">
+
+        <div class="box-main">
+            <img src="farcry.png" alt="FarCry IMG" style="height: 150px; width:150px">
+            <div class="firstHalf">
+                <h1 class="text-big" id="program">
+                    FarCry
+                </h1>
+                <p class="text-small">
+                    Far Cry is a franchise of first-person shooter games, all of which have been published by Ubisoft. The first game, Far Cry, was developed by Crytek to premiere their CryEngine software, and released in March 2004. Subsequently, Ubisoft obtained the rights
+                    to the franchise and the bulk of the development is handled by Ubisoft Montreal with assistance from other Ubisoft satellite studios. The following games in the series have used a Ubisoft-modified version of the CryEngine, the Dunia
+                    Engine, allowing for open world gameplay. In the present, the franchise consists of six mainline games, a standalone expansion, and several spin-offs; additionally, the first game, initially developed for Microsoft Windows, saw a number
+                    of ports to video game consoles, which changed several elements and are therefore considered standalone releases.
+                </p>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <img src="pubg.png" alt="Pubg game" style="height: 200px; width: 350px;">
+        <div class="paras">
+            <h1 class="sectionTag text-big">PUBG</h1>
+
+            <p class="sectionSubTag text-small">
+                PUBG Mobile is a free-to-play battle royale video game developed by LightSpeed & Quantum Studio, a division of Tencent Games. It is a mobile game adaptation of PUBG: Battlegrounds and was released for Android and iOS on 19 March 2018. It was published
+                by multiple publishers in different regions, including Krafton, Tencent, and VNG Games.[1][2] By April 2022, PUBG Mobile had accumulated over a billion downloads while grossing over $8.3 billion, making it the fourth highest-grossing mobile
+                game. It is also the most-played mobile video game of all time. In 2021, the game spawned an Indian version, Battlegrounds Mobile India, and a separated game taking place in the PUBG Universe, New State Mobile.
+            </p>
+
+
+        </div>
+
+        <!-- <div class="thumbnail">
+            <img src="pubg.png" alt="Pubg Logo">
+        </div> -->
+    </section>
+
+    <footer class="background">
+        <p class="text-footer">
+            Copyright ©-All rights are reserved
+        </p>
+
+
+    </footer>
+</body>
+
+</html>
