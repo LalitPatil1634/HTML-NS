@@ -12,31 +12,23 @@
 }
 
 .left-section {
-    display: grid;
+    display: -moz-box;
     background-color: blueviolet;
-    grid-column: 300px;
+    /* grid-column: 300px;
+    column-span: 300px; */
+    
 }
 
 .right-section {
     display: grid;
+    width: 90%;
     background-color: cyan;
 }
 
-.profile-details {
-    height: fit-content;
-    width: fit-content;
+.left-content {
+    padding: 1rem;
     display: block;
 }
-.profile-image {
-    height: 100px;
-    padding-left: 100px;
-    padding-top: 10px;
-    size: 200px;
-}
-.name {
-    padding-left: 87px;
-
-}
-.designation {
-    padding-left: 110px;
+.profile {
+    align-items: center;
 }
