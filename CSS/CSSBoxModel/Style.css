@@ -1,0 +1,11 @@
+.div {
+    background-color: pink;
+    width: 300px;
+    border: 10px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+.h {
+    color: saddlebrown;
+    text-shadow: 2px 2px 5px red;
+}
